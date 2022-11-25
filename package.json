@@ -1,9 +1,9 @@
 {
-  "name": "electron-vue-vite",
+  "name": "tradingview-multi",
   "version": "2.0.0",
   "main": "dist-electron/main/index.js",
-  "description": "Really simple Electron + Vue + Vite boilerplate.",
-  "author": "草鞋没号 <308487730@qq.com>",
+  "description": "Open Tradingview.com in multi split screen",
+  "author": "Mohamad Supangat <hantamkoding@gmail.com>",
   "license": "MIT",
   "private": true,
   "scripts": {
@@ -38,6 +38,8 @@
     "rollup",
     "vite",
     "vue3",
-    "vue"
+    "vue",
+    "tradingview",
+    "bitcoin"
   ]
 }

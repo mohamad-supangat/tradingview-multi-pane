@@ -10,18 +10,17 @@ const filter = {
   ],
 };
 
-const webviewRefs = ref([]);
+// const webviewRefs = ref([]);
 
-setTimeout(() => {
-  console.log(webviewRefs.value[1]);
-}, 1000);
+// setTimeout(() => {
+//   console.log(webviewRefs.value[1]);
+// }, 1000);
 </script>
 <template>
   <webview
     v-for="i in 4"
     :src="chartUrl"
     class="bg-primary"
-    :ref="(el) => (webviewRefs[i] = el)"
   ></webview>
 </template>
 <style lang="scss">
